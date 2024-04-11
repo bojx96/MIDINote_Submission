@@ -1,8 +1,9 @@
-# MIDINote Project
+# MIDINote
 ## Overview
 
 MIDINote is a lightweight system that converts (Musical Instrument Digital Interface) MIDI Files into Musical Score Sheets (MusicXML format) for both musicians and producers.
-MIDI music can be generated or created quickly with today’s technology. However, musicians still rely on traditional musical notation to perform and play their instrument. As such, there exists a gap where MIDI music is not presented in a form that can be understood and deciphered by musicians as it is not in a human-readable form such as text.
+MIDI music can be generated or created quickly with today’s technology. 
+However, musicians still rely on traditional musical notation to perform and play their instrument. As such, there exists a gap where MIDI music is not presented in a form that can be understood and deciphered by musicians as it is not in a human-readable form such as text.
 
 ## Prerequisite
 - GCC Compiler
@@ -17,7 +18,7 @@ MIDI music can be generated or created quickly with today’s technology. Howeve
 ### Cloning the repositoryt o your local machine.
 Simply type in the following in your terminal
 ```shell
-git clone <repolink>
+git clone https://github.com/bojx96/MIDINote_Submission.git
 ```
 
 ### Run the programme with a MIDI file to generate a MusicXML file.
