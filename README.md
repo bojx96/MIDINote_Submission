@@ -29,7 +29,7 @@ you may take an MIDI file from our testfiles folder, for example
 ```shell
 ./main ../testfiles/omg-h.mid
 ```
-
+The generated MusicXML file can be found as the 'output.xml' file.
 
 
 
