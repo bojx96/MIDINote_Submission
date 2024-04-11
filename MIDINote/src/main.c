@@ -87,8 +87,6 @@ void processMidi(MIDINoteFSM *fsm, int status)
 int main(int argc, char **argv)
 {
     MIDINoteFSM fsm;
-    // unsigned char buffer[100];
-    FILE *midiFile;
     int maxNotes = 3000;
     int i, j;
     struct MidiHeader *midiheader = malloc(sizeof(struct MidiHeader));
@@ -155,5 +153,4 @@ int main(int argc, char **argv)
     processMidi(&fsm, 1);
 
     closeHeaders(xmlFile);
-    fclose(midiFile);
 }
