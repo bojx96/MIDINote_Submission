@@ -15,7 +15,7 @@ However, musicians still rely on traditional musical notation to perform and pla
 3. Run `make` to build the project. This will compile the source code and generate an executable.
 4. Run the programme with a MIDI file to generate a MusicXML file.
 
-### Cloning the repositoryt o your local machine.
+### Cloning the repository to your local machine.
 Simply type in the following in your terminal
 ```shell
 git clone https://github.com/bojx96/MIDINote_Submission.git
